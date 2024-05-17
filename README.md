@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Comfortopurum
-- 👀 I’m interested in graphic design, social media management and web development 
+- 👀 Im intterested in front end web development 
 - 🌱 I’m currently learning software engineering 
 - 💞️ I’m looking to collaborate on creating websites 
 - 📫 Reach me on comfortopurum2@gmail.com
