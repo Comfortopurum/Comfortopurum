@@ -12,89 +12,62 @@
 
 <body>
 
-    <!-- <div class="overlay" data-overlay></div> -->
+    
 
     <main>
         
-        <div class="checkout">
+        <div class="background">
 
             <div class="container">
 
             
                     <div class="top-bar"> 
-                          <h2> Pay With </h2>
-                      
-                        <div class="business-logo">
-                               <h3>Business Logo</h3>
-                        </div>
-                          <div> 
-                             <p class="email"> Marcyjanet@gmail.com</p>
-                             <p class="money">NGN 5000.00</p>
-                          </div>
+                      <h2> To Do App </h2>
+                
                     </div>
       
                       <div class="line"></div> 
       
                         <div class="main-body">
-                      
-                          <span class="sidebar">
-                                <div class="box-item" id="orange" > 
-                                        <div class="box">
-                                           <img class="icon" src="https://img.icons8.com/?size=100&id=ffbOFX08SazH&format=png&color=000000" alt="card" width="30"> 
-          
-                                           <p class="word"> Card Payment</p> 
-                                        </div>
-                                </div>
-                                <div class="box-item"> 
-                                    
-                                    <img class="icon"src="https://img.icons8.com/?size=100&id=xbAVeXa6Jcbf&format=png&color=000000" alt="card" width="30"> 
-                                        
-                                    <p class="word"> Bank Transfer</p>
-                                    
-                                </div>
-                                <div class="box-item"> 
+
+                          <form id="todo-form">
+                            
+                            <div class="main-container">
+                              <h2 class="text-center">Add Task</h2> <br>
                               
-                                 <img class="icon"src="https://img.icons8.com/?size=100&id=xbAVeXa6Jcbf&format=png&color=000000" alt="card" width="30"> 
-          
-                                 <p class="word"> Phone Transfer</p> 
-          
+                              <div class="input-box">
+                               
+                                <div>
+                                  <label for="name">Task Name</label>
+                                  <input class="enter" type="text" id="name" required>
                                 </div>
-                                <div class="box-item"> 
-                              
-                                 <img class="icon"src="https://img.icons8.com/?size=100&id=ZiCX8adaI6ng&format=png&color=000000" alt="card" width="30"> 
-          
-                                 <p class="word"> Bank Payment</p> 
-          
+  
+                                <div>
+                                  <label for="description">Description</label>
+                                  <textarea class="enter"  id="description" required></textarea>
                                 </div>
-                                <div class="box-item"> 
-                              
-                                  <img  class="icon"src="https://img.icons8.com/?size=100&id=ffbOFX08SazH&format=png&color=000000" alt="card" width="30"> 
-          
-                                 <p class="word" id="ussd"> USSD</p> 
-          
-                                </div>     
-                            </span>
-                            <div class="main-container" main-container>
-                              <h2 class="text-center">Enter Your Card Details</h2> <br>
-    
-                                <div class="payment-box">
-                                  <p> Name on card </p>
-                                    <input class= "marcy-box" type="text" name="name on card" required placeholder=" Marcy Janet">
-                                  <p> Card Number  </p>
-                                    <input class ="marcy-box" type="number" name="card no" required placeholder="card no">
-                                  <div class="cvv-box"> 
-                                  <p> CVV </p>
-                                    <input class="cvv" type="number" name="cvv" required placeholder="***">
-                                  <p class="date-box"> Expiry </p>
-                                    <input class="cvv" type="month"  name="" required placeholder="06/26">
+  
+                                <div>
+                                  <label for="date">Date</label>
+                                  <input class="enter" type="date" id="date" required>
                                 </div>
-                                </div> 
-                                <div class="pay-box"> 
-     
-                              <button class="cancel"> Cancel</button>
-                              <button class="pay" id="pay-orange" pay-now>Pay NGN300.50</button>
+                                
+                                <div>
+                                  <label for="done">Done</label>
+                                  <input class="enter" type="checkbox" id="done">
+                                </div>
+                                
+                                <button type="submit" class="pay-c" id="pay" pay-now>Add Task</button>
+
                               </div>
-                            </div>
+
+                            </div>     
+
+                              
+                            
+                          </form>  
+                          
+                            
       
                         </div>
                       
